@@ -4,10 +4,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: #080025;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
 .navigation .nav-menu {
     display: flex;
     text-decoration: none;
-    background-color: #00084d;
+    background-color: #0f1970;
     justify-content: center;
     gap: 4.5rem;
 }
@@ -30,7 +39,7 @@
 
 .main-title {
     margin-bottom: 1rem;
-    color: #00084d;
+    color: #ffffff;
 }
 
 .main-title {
@@ -43,6 +52,7 @@ h2 {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 30px;
+    color: #fff;
 }
 
 .child {
@@ -63,6 +73,8 @@ h2 {
 }
 
 .child {
-    width: 38%;
+    width: 39%;
     height: 850px;
+    color: #fff;
 }
+
