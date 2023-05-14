@@ -21,6 +21,15 @@ img {
     list-style: none;
 }
 
+/* Curiosidades */
+
+.menu-item {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10rem;
+}
+
 .main-nav-item {
     text-decoration: none;
     color: #000;
