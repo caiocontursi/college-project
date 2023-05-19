@@ -89,3 +89,21 @@ h2 {
     height: 850px;
     color: #000;
 }
+
+.answer {
+    font-size: 22px;
+    margin-bottom: 10%;
+    margin-top: 6%;
+    background-color: royalblue;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.answer:hover {
+    background-color: #fff;
+    color: royalblue;
+    transition: 0.65s;
+}
