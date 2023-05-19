@@ -46,7 +46,7 @@ img {
 .nav-item-a:hover {
     cursor: pointer;
     transition: 0.5s;
-    color: royalblue;
+    color: grey;
 }
 
 .main-title {
@@ -106,4 +106,12 @@ h2 {
     background-color: #fff;
     color: royalblue;
     transition: 0.65s;
+}
+
+.answer-menu {
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    gap: 7.5rem;
 }
