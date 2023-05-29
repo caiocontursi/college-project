@@ -9,17 +9,12 @@
     <title>Jabuticabeira</title>
 </head>
 <style>
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .child {
     width: 65%;
     height: 850px;
     color: #000;
+    float: left;
 }
 
 .text {
@@ -31,15 +26,19 @@
 .header2 {
     font-size: 15px;
     padding: 2rem;
+    
 }
 .menu-rapido {
     background-color: #2347bd;
     border-radius: 10px;
     border-color: black;
-
 }
 
-
+.table-div {
+    display: flex;
+    gap: 1rem;
+    font-size: 20px;
+}
 </style>
 <body>
     <header class="header">
@@ -81,13 +80,16 @@
             </div>
             <div class="child">
                 <h2 id="subt4">Tabela</h2>
-                <table>
-                    <tr>
-                        <th>Exportação/toneladas</th>
-                        <th>Geogr</th>
+                <table class="table1">
+                    <tr class="table-div">
+                        <th class="table-title">Exportação</th>
+                        <th class="table-title">Geografia</th>
+                        <th class="table-title">Geografia</th>
                     </tr>
-                    <tr>
-                        <td>TESTE</td>
+                    <tr class="table-div">
+                        <td class="table-item">TESTE</td>
+                        <td class="table-item">TESTE</td>
+                        <td class="table-item">TESTE</td>
                     </tr>
                 </table>
                 <p class="text"></p>
