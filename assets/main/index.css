@@ -50,14 +50,11 @@ img {
 }
 
 .main-title {
-    margin-bottom: 1rem;
-    color: #000;
-}
-
-.main-title {
     font-size: 40px;
     margin-top: 1.5%;
     text-align: center;
+    margin-bottom: 1rem;
+    color: #000;
 }
 
 h2 {
@@ -115,3 +112,38 @@ h2 {
     display: flex;
     gap: 7.5rem;
 }
+
+@media (max-width: 1300px) {
+    .child {
+        width: 80%;
+        height: auto;
+    }
+    .img {
+        width: 48%;
+        margin-top: none;
+    }
+    .text {
+        font-size: 20px;
+    }
+    .main-title{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 700px) {
+    .child {
+        width: 80%;
+        height: auto;
+    }
+    .img {
+        width: 48%;
+        margin-top: none;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .main-title{
+        font-size: 30px;
+    }
+}
+
