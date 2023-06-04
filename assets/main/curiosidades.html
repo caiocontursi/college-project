@@ -39,11 +39,14 @@ body {
     color: grey;
 }
 
-.table-div {
-    display: flex;
-    gap: 1rem;
-    font-size: 20px;
+.table1, .table-title, .table-item {
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 3px;
+    border-collapse: collapse;
+    padding: 0.5rem;
 }
+
 
 </style>
 <body>
@@ -86,20 +89,29 @@ body {
             <div class="child4">
                 <h2 id="subt4">Tabela</h2>
                 <table class="table1">
-                    <tr class="table-div">
-                        <th class="table-title">Exportação</th>
-                        <th class="table-title">Geografia</th>
-                        <th class="table-title">Geografia</th>
-                    </tr>
-                    <tr class="table-div">
-                        <td class="table-item">TESTE</td>
-                        <td class="table-item">TESTE</td>
-                        <td class="table-item">TESTE</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th class="table-title">Exportação</th>
+                            <th class="table-title">Ano</th>
+                            <th class="table-title">Capital arrecadado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-item">1000 toneladas</td>
+                            <td class="table-item">2018</td>
+                            <td class="table-item">R$ 3.450.594,00</td>
+                        </tr>
+                    </tbody>      
                 </table>
                 <p class="text"></p>
-                <img src="" alt="imagem">
             </div>
         </section>
     </main>
+    <footer class="footer">
+        Site produzido por Caio Contursi para DPW - BSI 2023.<br><br>  
+        Instagram: @fulano <br>
+        Celular: +55(21) 99999-9999 <br>
+        Email: fulano@gmail.com
+    </footer>
     </html>
