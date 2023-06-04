@@ -8,6 +8,7 @@ body {
     background-image: url("img/img-fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1200px;
 }
 
 .nav-menu {
@@ -95,6 +96,26 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.child3 {
+    width: 70%;
+    height: 460px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.child4 {
+    width: 70%;
+    height: 460px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
 .img {
     width: 340px;
     height: 224px;
@@ -136,13 +157,14 @@ h2 {
 }
 
 .footer {
-    position: fixed;
-    width: 100%;
+    position: absolute;
+    width: 98.2%;
     text-align: justify;
     background-color: rgba(0, 0, 0, 0.75);
     color: #fff;
     font-size: 20px;
-    height: 50px;
+    height: 160px;
     padding: 1rem;
+    border-radius: 2px;
 }
 
