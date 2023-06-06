@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="img/icon-aba1.jpg">
     <title>Jabuticabeira</title>
-</head>
+
 <style>
 
 body {
@@ -47,6 +47,16 @@ body {
     padding: 0.5rem;
 }
 
+.link-table {
+    text-decoration: none;
+    color: white;
+}
+
+.link-table:hover {
+    color: grey;
+    transition: 0.5;
+}
+
 @media (max-width: 1160px) {
     .img, .img2 {
         width: 200px;
@@ -69,11 +79,12 @@ body {
 }
 
 </style>
+</head>
+
 <body>
     <header class="header">
         <nav class="navigation">
             <ul class="nav-menu">
-                <a class="main-nav-item">Jabuticabeira</a>
                 <li class="nav-item"><a class="nav-item-a" href="index.html">Início</a></li>
                 <li class="nav-item"><a class="nav-item-a" href="curiosidades.html">Curiosidades</a></li>
                 <li class="nav-item"><a class="nav-item-a" href="cultura.html">Cultura</a></li>
@@ -82,27 +93,27 @@ body {
         </nav>
     </header>
     <header class="header2">
-    <ul class="menu-rapido"> 
+    <div class="menu-rapido"> 
         <a class="main-menu-item">Menu rápido:</a> 
         <a class="menu-item" href="#subt1">Clima/Localização</a> 
         <a class="menu-item" href="#subt2">Usos</a> 
         <a class="menu-item" href="#subt3">Aspectos econômicos</a> 
         <a class="menu-item" href="#subt4">Tabela</a> 
-    </ul>
+    </div>
     </header>
     <main>
         <section class="container">
+            <h2 class="title-hidden">.</h2>
             <div class="child1">
                 <h2 id="subt1">Clima/Localização</h2>
                 <p class="text">A jabuticabeira é uma planta distribuída predominantemente na Mata Atlântica mas também fora da mesma, abrangendo diversos estados incluindo Bahia, Pernambuco, Espírito Santo, Minas Gerais, Rio de Janeiro, São Paulo e Paraná.</p>
                 <p class="text">Em termos de clima, a jabuticabeira prefere temperaturas médias anuais entre 20°C e 25°C, com poucas variações sazonais. Ela tolera temperaturas mais altas, mas o crescimento e a produção de frutas podem ser afetados negativamente por temperaturas muito elevadas. A árvore é sensível a geadas e pode sofrer danos se exposta a temperaturas abaixo de 0°C por períodos prolongados.</p>
                 <p class="text">Quanto à precipitação, a jabuticabeira prefere um clima úmido e bem distribuído ao longo do ano, com uma média anual de chuva entre 1.000 mm e 1.500 mm. Ela pode tolerar curtos períodos de seca, mas a falta de água pode afetar o crescimento e a frutificação da planta.</p>
-                <ul class="ul-imgs">
+                <div class="div-imgs">
                     <img class="img2" alt="mapa brasil" src="img/img1-curiosidades.jpg">
                     <img class="img2" alt="mata atlantica" src="img/img2-curiosidades.jpg">
                     <img class="img2" alt="arvores jabuticabeira" src="img/img3-curiosidades.jpg">
-                </ul>
-                    
+                </div>   
             </div> 
             <div class="child2">
                 <h2 id="subt2">Usos</h2>
@@ -112,12 +123,11 @@ body {
                 <p class="text">Bebidas: A jabuticaba é utilizada na produção de sucos, batidas e coquetéis. Os sucos de jabuticaba são bastante populares no Brasil, especialmente durante a época de safra da fruta.</p>
                 <p class="text">Medicinal: Na medicina popular brasileira, a jabuticaba é utilizada para tratar diversas condições de saúde. Acredita-se que a casca da jabuticaba possua propriedades antioxidantes, anti-inflamatórias e adstringentes. Ela é utilizada no preparo de chás e infusões para ajudar na cicatrização de feridas, aliviar inflamações e tratar problemas gastrointestinais.</p>
                 <p class="text">Cosméticos: Extratos e óleos derivados da jabuticaba também são utilizados na indústria cosmética para produzir produtos para a pele e cabelo. Acredita-se que esses extratos possuam propriedades hidratantes, antioxidantes e rejuvenescedoras.</p>   
-            <ul class="ul-imgs">
+            <div class="div-imgs">
                 <img class="img" alt="extrato jabutiacaba" src="img/img4-curiosidades.jpg">
                 <img class="img" alt="sabonete liquido jabuticaba" src="img/img5-curiosidades.jpg">
                 <img class="img" alt="batom jabuticaba" src="img/img6-curiosidades.jpg">
-            </ul>
-                
+            </div>  
             </div>
             <div class="child3">
                 <h2 id="subt3">Aspectos econômicos</h2>
@@ -135,26 +145,31 @@ body {
                         <th>Região</th>
                         <th>Países</th>
                         <th>Características Geográficas</th>
+                        <th>Links com mais informações</th>
                       </tr>
                       <tr>
                         <td>Região Sudeste</td>
                         <td>Brasil</td>
-                        <td>Principal região produtora de jabuticaba, com destaque para os estados de São Paulo, Minas Gerais e Rio de Janeiro.</td>
+                        <td>Principal região produtora de jabuticaba, com destaque para os estados de <span>São Paulo, Minas Gerais e Rio de Janeiro</span>.</td>
+                        <td><a class="link-table" target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiqvuX0q67_AhU5FbkGHYr2CrUQFnoECAkQAQ&url=https%3A%2F%2Fmundoeducacao.uol.com.br%2Fbiologia%2Fjabuticaba.htm&usg=AOvVaw3IQQP-HZdFThx7Wf8ljbrF">Mundo educação</a></td>
                       </tr>
                       <tr>
                         <td>Região Sul</td>
                         <td>Brasil</td>
-                        <td>Também há produção significativa de jabuticaba nos estados do Paraná, Santa Catarina e Rio Grande do Sul.</td>
+                        <td>Também há produção significativa de jabuticaba nos estados do <span>Paraná, Santa Catarina e Rio Grande do Sul</span>.</td>
+                        <td><a class="link-table" target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiqvuX0q67_AhU5FbkGHYr2CrUQFnoECAgQAQ&url=https%3A%2F%2Fbrasilescola.uol.com.br%2Ffrutas%2Fjabuticaba.htm&usg=AOvVaw0zlkmXOFrX_JJU1ki2Rtdt">Brasil escola</a></td>
                       </tr>
                       <tr>
                         <td>Região Nordeste</td>
                         <td>Brasil</td>
-                        <td>Alguns estados do Nordeste, como Bahia e Pernambuco, também possuem cultivo de jabuticaba, mas em menor escala.</td>
+                        <td>Alguns estados do Nordeste, como <span>Bahia e Pernambuco</span>, também possuem cultivo de jabuticaba, mas em menor escala.</td>
+                        <td><a class="link-table" target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiqvuX0q67_AhU5FbkGHYr2CrUQFnoECAoQAQ&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FJaboticaba&usg=AOvVaw2_VPjc2JCWY94BXff7-WwF">Wikipedia</a></td>
                       </tr>
                       <tr>
                         <td>Costa Oeste e Costa Leste</td>
                         <td>Estados Unidos</td>
-                        <td>As áreas com climas mais adequados para o cultivo de jabuticaba nos Estados Unidos são principalmente partes da Flórida, Havaí e sul da Califórnia. Nessas regiões, a jabuticaba pode ser cultivada como uma árvore frutífera ornamental em jardins ou pomares particulares, mas sua produção em escala comercial é limitada.</td>
+                        <td>As áreas com climas mais adequados para o cultivo de jabuticaba nos Estados Unidos são principalmente partes da <span>Flórida, Havaí e sul da Califórnia</span>. Nessas regiões, a jabuticaba pode ser cultivada como uma árvore frutífera ornamental em jardins ou pomares particulares, mas sua produção em escala comercial é limitada.</td>
+                        <td><a class="link-table" target="_blank" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjg7er0q67_AhUGPpEKHSq4DAAYABAAGgJjZQ&ae=2&ohost=www.google.com&cid=CAESZOD222T74utHH1oCIlc_B588ePcD0khEQDVDfxkXf_Cj4mLqLtC8wgWYL0pDfq8Q9e17H6sCHxjEeM_geo8KetjHcbykdKR_cWaFE1TOLyGT16Nnssxj2ePQ1QbkV45ckyRNMOY&sig=AOD64_1GsMBFJDcE_CWo20-uiC6xa5WegA&q&adurl&ved=2ahUKEwiqvuX0q67_AhU5FbkGHYr2CrUQ0Qx6BAgEEAE">Instituto Brasileiro de FLorestas</a></td>
                       </tr>
                   </table>
             </div>
