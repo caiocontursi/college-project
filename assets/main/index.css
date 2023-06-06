@@ -8,14 +8,13 @@ html, body {
     background-image: url("img/img-fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%; 
+    height: auto; 
 }
 
 .nav-menu {
     display: flex;
-    text-decoration: none;
     background-color: #0a081a;
-    gap: 4rem;
+    justify-content: space-around;
     list-style: none;
 }
 
@@ -27,7 +26,6 @@ html, body {
 }
 
 .main-nav-item {
-    text-decoration: none;
     color: #fff;
     font-size: 30px;
     margin-right: 20rem;
@@ -72,46 +70,15 @@ h2 {
 
 .container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.child1 {
+.child1, .child2, .child3, .child4 {
     width: 70%;
-    height: 250px;
+    height: auto;
     color: #fff;
     background-color: rgb(0, 0, 0, 0.75);
-    border-radius: 10px;
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
-
-.child2 {
-    width: 70%;
-    height: 460px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 10px;
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
-
-.child3 {
-    width: 70%;
-    height: 460px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 10px;
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
-
-.child4 {
-    width: 70%;
-    height: 460px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.75);
     border-radius: 10px;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -120,41 +87,6 @@ h2 {
 .img {
     width: 340px;
     height: 224px;
-    justify-content: center;
-}
-
-@media (max-width: 1300px) {
-    .child {
-        width: 80%;
-        height: auto;
-    }
-    .img {
-        width: 48%;
-        margin-top: none;
-    }
-    .text {
-        font-size: 20px;
-    }
-    .main-title{
-        font-size: 35px;
-    }
-}
-
-@media (max-width: 700px) {
-    .child {
-        width: 80%;
-        height: auto;
-    }
-    .img {
-        width: 48%;
-        margin-top: none;
-    }
-    .text {
-        font-size: 15px;
-    }
-    .main-title{
-        font-size: 30px;
-    }
 }
 
 .footer {
