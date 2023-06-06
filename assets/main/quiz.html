@@ -12,7 +12,7 @@
     <header class="header">
         <nav class="navigation">
             <ul class="nav-menu">
-                <a class="main-nav-item">Jabuticabeira</a>
+                <li><a class="main-nav-item">Jabuticabeira</a><li>
                 <li class="nav-item"><a class="nav-item-a" href="index.html">Início</a></li>
                 <li class="nav-item"><a class="nav-item-a" href="curiosidades.html">Curiosidades</a></li>
                 <li class="nav-item"><a class="nav-item-a" href="cultura.html">Cultura</a></li>
@@ -24,14 +24,157 @@
         <h1 class="main-title">Quiz</h1>
         <section class="container">
             <div class="child1">
-                <p class="text">A jabuticabeira é uma árvore originária de que vegetação brasileira?</p>
+                <form id="quiz-form">
+                    <div class="question">
+                        <p class="p-quiz">1. Qual é o nome científico da jabuticabeira?</p>
+                        <ul class="options">
+                            <li>
+                                <input type="radio" name="q1" value="a"> A. Myrciaria cauliflora
+                            </li>
+                            <li>
+                                <input type="radio" name="q1" value="b"> B. Jabuticaba officinalis
+                            </li>
+                            <li>
+                                <input type="radio" name="q1" value="c"> C. Eugenia jaboticaba
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="question">
+                        <p class="p-quiz">2. Qual é a origem da jabuticabeira? Em qual região ela é nativa?</p>
+                        <ul class="options">
+                            <li>
+                                <input type="radio"> A. Brasil
+                            </li>
+                            <li>
+                                <input type="radio"> B. México
+                            </li>
+                            <li>
+                                <input type="radio"> C. Austrália
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="question">
+                        <p class="p-quiz">3. Quais são as condições ideais de cultivo para uma jabuticabeira?</p>
+                        <ul class="options">
+                            <li>
+                                <input type="radio"> A. Clima frio e solo úmido
+                            </li>
+                            <li>
+                                <input type="radio"> B. Clima tropical e solo bem drenado
+                            </li>
+                            <li>
+                                <input type="radio"> C. Clima desértico e solo arenoso
+                            </li>
+                        </ul>
+                    <div class="question">
+                        <p class="p-quiz">4. Qual é o principal uso das jabuticabas?</p>
+                        <ul class="options">
+                            <li>
+                                <input type="radio"> A. Consumo in natura
+                            </li>
+                            <li>
+                                <input type="radio"> B. Produção de sucos e geleias
+                            </li>
+                            <li>
+                                <input type="radio"> C. Elaboração de vinhos e licores
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="question">
+                        <p class="p-quiz">5. Qual é o tamanho médio de uma jabuticabeira adulta?</p>
+                        <ul class="options">
+                            <li>
+                                <input type="radio"> A. 3 a 5 metros
+                            </li>
+                            <li>
+                                <input type="radio"> B. 10 a 15 metros
+                            </li>
+                            <li>
+                                <input type="radio"> C. 20 a 25 metros
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="question">
+                        <p class="p-quiz">6. Qual é a cor das jabuticabas maduras?</p>
+                        <ul class="options">
+                            <li>
+                                <input type="radio"> A. Vermelhas
+                            </li>
+                            <li>
+                                <input type="radio"> B. Pretas
+                            </li>
+                            <li>
+                                <input type="radio"> C. Amarelas
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="quiz-container">
+                    <div class="question">
+                        <p class="p-quiz">7. Quais são as propriedades medicinais atribuídas à jabuticaba?</p>
+                        <ul class="options">
+                            <li>
+                                <input type="radio"> A. Antioxidante e anti-inflamatória
+                            </li>
+                            <li>
+                                <input type="radio"> B. Analgésica e antisséptica
+                            </li>
+                            <li>
+                                <input type="radio"> C. Diurética e estimulante
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="question">
+                        <p class="p-quiz">8. Qual parte da jabuticabeira é utilizada comumente na medicina?</p>
+                        <ul class="options">
+                            <li>
+                                <input type="radio"> A. Frutas
+                            </li>
+                            <li>
+                                <input type="radio"> B. Folhas
+                            </li>
+                            <li>
+                                <input type="radio"> C. Casca
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="question">
+                        <p class="p-quiz">9. Além do consumo in natura, a jabuticaba é utilizada na produção de:</p>
+                        <ul class="options">
+                            <li>
+                                <input type="radio"> A. Vinhos e licores
+                            </li>
+                            <li>
+                                <input type="radio"> B. Cosméticos e produtos de beleza
+                            </li>
+                            <li>
+                                <input type="radio"> C Sabores artificiais para doces
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="question">
+                        <p class="p-quiz">10. Qual é a característica marcante da jabuticaba na produção de vinhos?</p>
+                        <ul class="options">
+                            <li>
+                                <input type="radio"> A. A cor vermelha intensa
+                            </li>
+                            <li>
+                                <input type="radio"> B. O aroma adocicado
+                            </li>
+                            <li>
+                                <input type="radio"> C. O alto teor alcoólico
+                            </li>
+                        </ul>
+                    </div>
+                    <input class="btn" type="submit" value="Enviar">
+                    <input class="btn" type="submit" value="Gabarito" href="gabarito.html">
+                </form>
             </div>
         </section>
     </main>
     <footer class="footer">
         Site produzido por Caio Contursi para DPW - BSI 2023.<br><br>  
         Instagram: @fulano <br>
-        Celular: +55(21) 99999-9999 <br>
+        Celular: +55(21. 99999-9999 <br>
         Email: fulano@gmail.com
     </footer>
     </html>
