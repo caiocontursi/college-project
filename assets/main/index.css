@@ -153,12 +153,6 @@ th, td {
     text-decoration: none;
 }
 
-.btn:hover {
-    color: #0a081a;
-    background-color: #fff;
-    transition: 0.5s;
-}
-
 .title-hidden {
     display: none;
 }
@@ -168,8 +162,17 @@ span {
 }
 
 /* Utilização do pseudo-elemento */
+
 p::first-letter {
-    font-size: 28px;
+    font-size: auto;
+}
+
+/* Utilização da pseudo-classe */
+
+.btn:hover {
+    color: #0a081a;
+    background-color: #fff;
+    transition: 0.5s;
 }
 
 @media (max-width: 1200px) {
